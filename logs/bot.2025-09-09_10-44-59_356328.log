@@ -1,0 +1,452 @@
+2025-09-09 10:44:59 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-09 10:44:59 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-09 10:44:59 | INFO | __main__:main:65 | Database connection successful
+2025-09-09 10:44:59 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-09 10:45:17 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 10:45:17 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.ProgrammingError) <class 'asyncpg.exceptions.UndefinedTableError'>: relation "owners" does not exist
+[SQL: SELECT owners.id, owners.telegram_id, owners.password_hash, owners.is_active, owners.created_at, owners.updated_at 
+FROM owners 
+WHERE owners.telegram_id = $1::BIGINT AND owners.is_active = true]
+[parameters: (740984254,)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2025-09-09 10:45:17 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: cmd_start() missing 2 required positional arguments: 'is_owner' and 'is_master'
+2025-09-09 10:46:52 | INFO | __main__:main:82 | Bot stopped
+2025-09-09 10:50:20 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-09 10:50:20 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-09 10:50:20 | INFO | __main__:main:65 | Database connection successful
+2025-09-09 10:50:21 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-09 10:50:30 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 10:50:30 | WARNING | app.middlewares.auth:__call__:65 | Unauthorized user 740984254 attempting access
+2025-09-09 10:50:30 | WARNING | app.handlers.common:cmd_start:52 | Unauthorized user started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 10:50:36 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 📊 Статистика
+2025-09-09 10:50:36 | WARNING | app.middlewares.auth:__call__:65 | Unauthorized user 740984254 attempting access
+2025-09-09 10:51:22 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 10:51:22 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:51:22 | INFO | app.handlers.common:cmd_start:29 | Owner started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 10:51:28 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 👤 Управление мастерами
+2025-09-09 10:51:28 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:51:30 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: add_master
+2025-09-09 10:51:30 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:51:37 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: Алишер
+2025-09-09 10:51:37 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:51:52 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: @xylonyx
+2025-09-09 10:51:52 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:51:55 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_1
+2025-09-09 10:51:55 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:51:55 | INFO | app.handlers.admin:process_master_salon:423 | New master created: Алишер for salon Beauty Salon Demo
+2025-09-09 10:51:59 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_masters
+2025-09-09 10:51:59 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:07 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_main
+2025-09-09 10:52:07 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:21 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 🏢 Управление салонами
+2025-09-09 10:52:21 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:22 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: list_salons
+2025-09-09 10:52:22 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:24 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_salons
+2025-09-09 10:52:24 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:25 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: add_salon
+2025-09-09 10:52:25 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:34 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: Алматы
+2025-09-09 10:52:34 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:38 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: Алматы
+2025-09-09 10:52:38 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:43 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 14
+2025-09-09 10:52:43 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:43 | INFO | app.handlers.admin:process_salon_quota:165 | New salon created: Алматы in Алматы
+2025-09-09 10:52:53 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 📊 Статистика
+2025-09-09 10:52:53 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:52:57 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: stats_salons
+2025-09-09 10:52:57 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:53:02 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: stats_general
+2025-09-09 10:53:02 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:53:08 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_main
+2025-09-09 10:53:08 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:53:11 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 👤 Управление мастерами
+2025-09-09 10:53:11 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:53:16 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_main
+2025-09-09 10:53:16 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:53:53 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: ⚙️ Настройки
+2025-09-09 10:53:53 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 10:54:00 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 🏢 Управление салонами
+2025-09-09 10:54:00 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:14 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 👤 Управление мастерами
+2025-09-09 11:56:15 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:16 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: add_master
+2025-09-09 11:56:16 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:21 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: Алишер
+2025-09-09 11:56:21 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:26 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: @polis12312
+2025-09-09 11:56:26 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:29 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:29 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:29 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:29 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:31 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:31 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:31 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:31 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:31 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_1
+2025-09-09 11:56:31 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:31 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 1, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:31 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 1, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:32 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:32 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:32 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:32 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:32 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:32 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:32 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:32 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:35 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:35 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:35 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:35 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Алишер', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:40 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_masters
+2025-09-09 11:56:40 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:42 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: add_master
+2025-09-09 11:56:42 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:48 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: Али
+2025-09-09 11:56:48 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:54 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: @polis12312
+2025-09-09 11:56:54 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:56 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:56 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:56 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:56 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:57 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:57 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:57 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:57 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:57 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:57 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:57 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:57 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:57 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:57 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:57 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:57 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:56:58 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:56:58 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:56:58 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:56:58 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:57:02 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:57:02 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:57:02 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:57:02 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:57:03 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_1
+2025-09-09 11:57:03 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:57:03 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 1, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:57:03 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 1, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 11:57:11 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 11:57:11 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 11:57:11 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+2025-09-09 11:57:11 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: This Session's transaction has been rolled back due to a previous exception during flush. To begin a new transaction with this Session, first issue Session.rollback(). Original exception was: (sqlalchemy.dialects.postgresql.asyncpg.IntegrityError) <class 'asyncpg.exceptions.UniqueViolationError'>: duplicate key value violates unique constraint "masters_telegram_id_key"
+DETAIL:  Key (telegram_id)=(0) already exists.
+[SQL: INSERT INTO masters (name, telegram_id, telegram_username, salon_id, is_active, analyses_count) VALUES ($1::VARCHAR, $2::BIGINT, $3::VARCHAR, $4::INTEGER, $5::BOOLEAN, $6::INTEGER) RETURNING masters.id, masters.created_at, masters.updated_at]
+[parameters: ('Али', 0, 'polis12312', 2, True, 0)]
+(Background on this error at: https://sqlalche.me/e/20/gkpj) (Background on this error at: https://sqlalche.me/e/20/7s2a)
+2025-09-09 12:00:36 | INFO | __main__:main:82 | Bot stopped
+2025-09-09 12:02:35 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-09 12:02:35 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-09 12:02:35 | INFO | __main__:main:65 | Database connection successful
+2025-09-09 12:02:35 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-09 12:02:52 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: ❌ Отмена
+2025-09-09 12:02:52 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:02:59 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 👤 Управление мастерами
+2025-09-09 12:02:59 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:03:00 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: add_master
+2025-09-09 12:03:00 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:03:12 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: Алишер
+2025-09-09 12:03:12 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:03:14 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: @polis12312
+2025-09-09 12:03:14 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:03:15 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: select_salon_for_master_2
+2025-09-09 12:03:15 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:03:16 | INFO | app.handlers.admin:process_master_salon:424 | New master created: Алишер for salon Алматы
+2025-09-09 12:03:18 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_masters
+2025-09-09 12:03:18 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:03:21 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: ❌ Отмена
+2025-09-09 12:03:21 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:03:30 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 12:03:30 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 12:03:30 | INFO | app.handlers.common:cmd_start:29 | Owner started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 12:04:47 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 12:04:48 | WARNING | app.middlewares.auth:__call__:65 | Unauthorized user 740984254 attempting access
+2025-09-09 12:04:48 | WARNING | app.handlers.common:cmd_start:52 | Unauthorized user started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 12:04:51 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 📊 Статистика
+2025-09-09 12:04:51 | WARNING | app.middlewares.auth:__call__:65 | Unauthorized user 740984254 attempting access
+2025-09-09 12:04:52 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 12:04:52 | WARNING | app.middlewares.auth:__call__:65 | Unauthorized user 740984254 attempting access
+2025-09-09 12:04:52 | WARNING | app.handlers.common:cmd_start:52 | Unauthorized user started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 12:04:56 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_main
+2025-09-09 12:04:56 | WARNING | app.middlewares.auth:__call__:65 | Unauthorized user 740984254 attempting access
+2025-09-09 12:05:01 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 👤 Управление мастерами
+2025-09-09 12:05:01 | WARNING | app.middlewares.auth:__call__:65 | Unauthorized user 740984254 attempting access
+2025-09-09 12:06:14 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 12:06:14 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:06:14 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-09-09 12:06:14 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-09-09 12:06:27 | INFO | __main__:main:82 | Bot stopped
+2025-09-09 12:06:30 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-09 12:06:30 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-09 12:06:30 | INFO | __main__:main:65 | Database connection successful
+2025-09-09 12:06:30 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-09 12:06:34 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 12:06:34 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:06:34 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-09-09 12:06:34 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-09-09 12:08:09 | INFO | __main__:main:82 | Bot stopped
+2025-09-09 12:08:20 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-09 12:08:20 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-09 12:08:20 | INFO | __main__:main:65 | Database connection successful
+2025-09-09 12:08:20 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-09 12:08:26 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 12:08:26 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:26 | INFO | app.handlers.common:cmd_start:53 | Master started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 12:08:31 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 📖 Инструкция
+2025-09-09 12:08:32 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:34 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: photo_instructions
+2025-09-09 12:08:34 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:42 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_instructions
+2025-09-09 12:08:42 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:43 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: faq
+2025-09-09 12:08:43 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:46 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_instructions
+2025-09-09 12:08:46 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:49 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: analysis_info
+2025-09-09 12:08:49 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:52 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_instructions
+2025-09-09 12:08:52 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:54 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: photo_instructions
+2025-09-09 12:08:54 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:54 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_instructions
+2025-09-09 12:08:54 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:08:55 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_main
+2025-09-09 12:08:55 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:09:00 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 📊 Моя статистика
+2025-09-09 12:09:00 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:09:03 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: stats_today
+2025-09-09 12:09:03 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:09:03 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-09-09 12:09:03 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-09-09 12:09:05 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 📸 Начать анализ
+2025-09-09 12:09:05 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 12:09:05 | ERROR | app.middlewares.auth:__call__:70 | Auth middleware error: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-09-09 12:09:05 | ERROR | app.middlewares.auth:__call__:169 | Handler error for user 740984254: greenlet_spawn has not been called; can't call await_only() here. Was IO attempted in an unexpected place? (Background on this error at: https://sqlalche.me/e/20/xd2s)
+2025-09-09 15:03:56 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 15:03:56 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 15:03:56 | INFO | app.handlers.common:cmd_start:53 | Master started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 15:04:05 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 15:04:05 | INFO | app.middlewares.auth:__call__:63 | Master 740984254 (Алишер) accessing system
+2025-09-09 15:04:05 | INFO | app.handlers.common:cmd_start:53 | Master started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 15:04:40 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: /start
+2025-09-09 15:04:40 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:04:40 | INFO | app.handlers.common:cmd_start:32 | Owner started bot: A (@polis12312) [ID: 740984254]
+2025-09-09 15:04:45 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: ⚙️ Настройки
+2025-09-09 15:04:45 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:04:50 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 🏢 Управление салонами
+2025-09-09 15:04:50 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:04:52 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: list_salons
+2025-09-09 15:04:52 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:04:54 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: salon_2
+2025-09-09 15:04:54 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:14:05 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 👤 Управление мастерами
+2025-09-09 15:14:05 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:14:18 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: add_master
+2025-09-09 15:14:18 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:14:22 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_masters
+2025-09-09 15:14:22 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:14:23 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: add_master
+2025-09-09 15:14:23 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:14:36 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: Ali
+2025-09-09 15:14:36 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:15:11 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: ❌ Отмена
+2025-09-09 15:15:11 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:15:22 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 💰 Пополнить квоты
+2025-09-09 15:15:22 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:15:34 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: quota_salon_2
+2025-09-09 15:15:34 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:15:46 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: back_to_main
+2025-09-09 15:15:46 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:15:49 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 💰 Пополнить квоты
+2025-09-09 15:15:49 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:15:51 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: quota_salon_1
+2025-09-09 15:15:51 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:16:04 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 190
+2025-09-09 15:16:04 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:16:04 | INFO | app.handlers.admin:process_quota_amount:589 | Quota refilled for salon Beauty Salon Demo: +190 (total: 290)
+2025-09-09 15:16:25 | INFO | app.middlewares.auth:__call__:158 | Message from 740984254: 📊 Статистика
+2025-09-09 15:16:25 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:16:29 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: stats_period
+2025-09-09 15:16:29 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:16:33 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: stats_masters
+2025-09-09 15:16:33 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:16:34 | INFO | app.middlewares.auth:__call__:164 | Callback from 740984254: stats_general
+2025-09-09 15:16:34 | INFO | app.middlewares.auth:__call__:61 | Owner 740984254 accessing system
+2025-09-09 15:17:07 | INFO | __main__:main:82 | Bot stopped
+2025-09-09 15:24:30 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-09 15:24:30 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-09 15:24:30 | INFO | __main__:main:65 | Database connection successful
+2025-09-09 15:24:31 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-09 15:24:48 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 15:24:51 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 15:24:53 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 15:43:38 | INFO | __main__:main:82 | Bot stopped
+2025-09-09 17:19:28 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-09 17:19:28 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-09 17:19:28 | INFO | __main__:main:65 | Database connection successful
+2025-09-09 17:19:28 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-09 17:19:48 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:19:50 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:19:51 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:19:54 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:19:57 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:19:58 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:00 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:00 | INFO | app.handlers.admin_masters:process_new_salon_for_master:611 | Master Алишер moved from salon Алматы (Алматы) to Beauty Salon Demo
+2025-09-09 17:20:04 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:07 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:12 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:13 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:15 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:17 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:17 | INFO | app.handlers.admin_masters:delete_master:694 | Master deactivated: Алишер (ID: 16, Telegram: 123)
+2025-09-09 17:20:18 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:23 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:26 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:28 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:31 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:37 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:39 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:40 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:43 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:44 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:46 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:49 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:51 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:54 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:20:56 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:01 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:04 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:06 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:11 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:13 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:18 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:19 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:26 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:30 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:35 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:36 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:39 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:43 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 17:21:45 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 20:39:59 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-09 23:12:18 | INFO | __main__:main:82 | Bot stopped

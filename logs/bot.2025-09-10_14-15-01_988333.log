@@ -1,0 +1,408 @@
+2025-09-10 14:15:01 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 14:15:01 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 14:15:01 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 14:15:02 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-10 14:15:02 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:15:19 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:15:21 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:15:23 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:15:25 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:15:26 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:15:28 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:15:29 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:15:44 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:16:13 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:16:13 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: 'master_name'
+2025-09-10 14:16:21 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:16:52 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:16:55 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:16:57 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:17:03 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:17:09 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:17:10 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:17:12 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:17:12 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: 'master_name'
+2025-09-10 14:17:14 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:17:14 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: 'master_name'
+2025-09-10 14:18:06 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:18:06 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: 'master_name'
+2025-09-10 14:19:08 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:19:17 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:19:17 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: 'master_name'
+2025-09-10 14:22:39 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:22:42 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:22:47 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:22:48 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:22:49 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:22:50 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:22:52 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:24:56 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 14:24:59 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 14:24:59 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 14:24:59 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 14:24:59 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-10 14:25:05 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:25:07 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:25:08 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:25:12 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:25:22 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:25:25 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 14:25:25 | INFO | app.handlers.admin_masters:process_master_salon:190 | New master created: Алишер (ID: 740984254) for salon Алматы
+2025-09-10 14:26:04 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:04 | INFO | app.handlers.common:cmd_start:53 | Master started bot: A (@polis12312) [ID: 740984254]
+2025-09-10 14:26:08 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:11 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:23 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:26 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:26 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:26:29 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:29 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:26:33 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:33 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:26:39 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:39 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:26:49 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:49 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:26:52 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:52 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:26:57 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:26:57 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:27:04 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:27:05 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:27:12 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:27:12 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:29:00 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 14:29:34 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 14:29:34 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 14:29:34 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 14:29:34 | INFO | __main__:main:70 | Bot started: @fdawdabot
+2025-09-10 14:29:43 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:29:43 | INFO | app.handlers.common:cmd_start:53 | Master started bot: A (@polis12312) [ID: 740984254]
+2025-09-10 14:29:46 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:29:56 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:29:59 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:30:02 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:30:09 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:30:10 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:30:11 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:30:13 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:30:14 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:30:16 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:30:16 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:31:10 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:31:10 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:31:14 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:31:14 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:32:37 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:32:41 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:32:52 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:32:55 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:33:00 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:33:06 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:29 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:31 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:33 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:40 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:40 | INFO | app.handlers.common:cmd_start:53 | Master started bot: A (@polis12312) [ID: 740984254]
+2025-09-10 14:38:42 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:43 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:51 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:53 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:53 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:38:56 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:38:56 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 14:53:55 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 14:53:58 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 14:53:58 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 14:53:58 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 14:54:01 | INFO | __main__:main:70 | Bot started: @ai_mentor_BBB_bot
+2025-09-10 14:54:32 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:54:32 | INFO | app.handlers.common:cmd_start:53 | Master started bot: A (@polis12312) [ID: 740984254]
+2025-09-10 14:54:49 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:54:50 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:54:59 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:55:01 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 14:55:01 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 16:34:03 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 16:34:03 | INFO | app.handlers.common:cmd_start:32 | Owner started bot: A (@polis12312) [ID: 740984254]
+2025-09-10 16:34:05 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 16:34:06 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 16:34:18 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 16:34:24 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 16:34:27 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 16:34:27 | INFO | app.handlers.admin_masters:process_master_salon:190 | New master created: Реалист (ID: 1105228578) for salon Beauty Salon Demo
+2025-09-10 18:01:16 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:01:16 | INFO | app.handlers.common:cmd_start:53 | Master started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 18:01:22 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:01:27 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:01:38 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:01:40 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:01:46 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:01:53 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:01:55 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:03:54 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:04:00 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:04:03 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:04:51 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:04:56 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:05:35 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:06:16 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:06:16 | INFO | app.handlers.common:cmd_start:53 | Master started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 18:06:19 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:06:46 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:06:49 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:07:23 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:07:30 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:08:11 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 18:08:12 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:08:15 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 18:08:19 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 18:08:20 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 18:08:29 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 18:08:31 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:08:31 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:08:34 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:08:34 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:08:37 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 18:08:40 | INFO | app.middlewares.auth:__call__:67 | Owner 740984254 accessing system
+2025-09-10 18:08:53 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:08:53 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:10:57 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:10:57 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:16:36 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 18:16:38 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 18:16:38 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 18:16:38 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 18:16:39 | INFO | __main__:main:70 | Bot started: @ai_mentor_BBB_bot
+2025-09-10 18:17:22 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:17:22 | INFO | app.handlers.common:cmd_start:53 | Master started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 18:17:25 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:17:28 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:17:29 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:17:30 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:17:40 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:17:52 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:17:52 | INFO | app.handlers.common:cmd_start:53 | Master started bot: A (@polis12312) [ID: 740984254]
+2025-09-10 18:17:55 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:17:55 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:17:57 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:05 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:07 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:17 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:18 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:18:22 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:18:23 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:25 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:18:30 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:35 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:35 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:18:35 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:18:38 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:40 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:46 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:18:46 | INFO | app.handlers.master:accept_results:448 | Analysis 10 completed successfully by master Алишер
+2025-09-10 18:19:34 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:19:36 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:19:43 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:19:44 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:19:45 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:19:48 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:19:48 | ERROR | app.middlewares.auth:__call__:76 | Auth middleware error: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:20:27 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:20:58 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:21:27 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:21:39 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:23:38 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:23:45 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:23:52 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:00 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:03 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:07 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:15 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:18 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:20 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:46 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:52 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:24:52 | INFO | app.handlers.master:process_dispute:496 | Analysis 12 disputed by master
+2025-09-10 18:25:00 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:25:02 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:25:04 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:25:12 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:25:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:25:24 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:25:37 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 18:25:40 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 18:25:40 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 18:25:40 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 18:25:40 | INFO | __main__:main:70 | Bot started: @ai_mentor_BBB_bot
+2025-09-10 18:25:47 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:25:51 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:25:59 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:26:01 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:26:18 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:26:27 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:26:34 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:26:36 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:26:47 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:28:05 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:28:12 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:28:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:28:22 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:28:27 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:28:29 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:28:40 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:28:46 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:28:52 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:29:22 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:29:23 | INFO | app.handlers.master:accept_results:458 | Analysis 15 completed successfully by master Реалист
+2025-09-10 18:29:28 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:30:01 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:31:10 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:31:15 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:17 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:18 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:31:19 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:31:21 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:21 | INFO | app.handlers.master:accept_results:458 | Analysis 14 completed successfully by master Алишер
+2025-09-10 18:31:24 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:27 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:34 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:39 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:45 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:55 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:31:58 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:32:04 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:33:04 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:33:09 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:34:19 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:35:06 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:35:08 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:35:11 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:35:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:35:20 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:35:20 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:35:22 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:35:46 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:36:02 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:36:05 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:36:12 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:37:08 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:37:13 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:37:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:37:24 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:37:32 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:37:47 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 18:38:37 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:38:37 | INFO | app.handlers.common:cmd_start:32 | Owner started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 18:38:49 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:38:52 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:07 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:15 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:22 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:22 | INFO | app.handlers.admin_salons:process_salon_quota:170 | New salon created: фываолдж in астана with quota 15
+2025-09-10 18:39:33 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:39 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:42 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:48 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:49 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:50 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:39:51 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:40:00 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:40:02 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:40:03 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:40:09 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:40:11 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:40:13 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:40:15 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:40:28 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:41:56 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 18:41:59 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 18:41:59 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 18:41:59 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 18:42:00 | INFO | __main__:main:70 | Bot started: @ai_mentor_BBB_bot
+2025-09-10 18:42:04 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:42:07 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:42:10 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:42:43 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:42:46 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:42:51 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:42:54 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:42:55 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:42:56 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:42:58 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:43:02 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:43:03 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:43:09 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:43:11 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:43:23 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:43:24 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:43:26 | INFO | app.middlewares.auth:__call__:67 | Owner 1105228578 accessing system
+2025-09-10 18:46:36 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 18:46:39 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 18:46:39 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 18:46:39 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 18:46:39 | INFO | __main__:main:70 | Bot started: @ai_mentor_BBB_bot
+2025-09-10 18:46:48 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:46:50 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:46:52 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:46:59 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:47:00 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:47:01 | ERROR | app.handlers.master:continue_to_second_hand:407 | Error in continue_to_second_hand: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:47:03 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:47:03 | ERROR | app.handlers.master:continue_to_second_hand:407 | Error in continue_to_second_hand: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:47:05 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:47:05 | ERROR | app.handlers.master:request_first_hand_photo:245 | Error in request_first_hand_photo: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:47:11 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:47:15 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:48:00 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:48:11 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:48:13 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:48:13 | ERROR | app.handlers.master:continue_to_second_hand:407 | Error in continue_to_second_hand: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 18:49:26 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 18:49:28 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 18:49:28 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 18:49:28 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 18:49:29 | INFO | __main__:main:70 | Bot started: @ai_mentor_BBB_bot
+2025-09-10 18:49:33 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:49:39 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:50:22 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:50:23 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:50:29 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 18:50:31 | INFO | app.middlewares.auth:__call__:69 | Master 740984254 (Алишер) accessing system
+2025-09-10 19:56:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 19:56:17 | INFO | app.handlers.common:cmd_start:53 | Master started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 19:56:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 19:56:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 19:56:17 | INFO | app.handlers.common:cmd_start:53 | Master started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 19:56:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 19:56:18 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 19:56:18 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 19:56:18 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 19:56:18 | INFO | app.handlers.common:cmd_start:53 | Master started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 19:56:20 | INFO | app.handlers.common:cmd_start:53 | Master started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 19:56:20 | INFO | app.handlers.common:cmd_start:53 | Master started bot: Реалист (@rea1is2in) [ID: 1105228578]
+2025-09-10 20:54:51 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 21:10:33 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 21:55:49 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 21:55:49 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 21:55:49 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:12:15 | INFO | __main__:main:82 | Bot stopped
+2025-09-10 22:12:29 | INFO | __main__:main:36 | Starting Hair Analysis Bot...
+2025-09-10 22:12:29 | INFO | __main__:main:60 | Bot configuration complete
+2025-09-10 22:12:29 | INFO | __main__:main:65 | Database connection successful
+2025-09-10 22:12:29 | INFO | __main__:main:70 | Bot started: @ai_mentor_BBB_bot
+2025-09-10 22:13:15 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:13:17 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:13:27 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:13:29 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:13:29 | ERROR | app.handlers.master:continue_to_second_hand:407 | Error in continue_to_second_hand: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 22:13:37 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:13:37 | ERROR | app.handlers.master:continue_to_second_hand:407 | Error in continue_to_second_hand: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 22:13:41 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:13:41 | ERROR | app.handlers.master:continue_to_second_hand:407 | Error in continue_to_second_hand: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 22:21:14 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:21:14 | ERROR | app.handlers.master:continue_to_second_hand:407 | Error in continue_to_second_hand: Telegram server says - Bad Request: there is no text in the message to edit
+2025-09-10 22:21:24 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:21:44 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:21:47 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
+2025-09-10 22:21:49 | INFO | app.middlewares.auth:__call__:69 | Master 1105228578 (Реалист) accessing system
