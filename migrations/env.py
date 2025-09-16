@@ -4,17 +4,32 @@ from sqlalchemy import pool
 from sqlalchemy.ext.asyncio import create_async_engine
 from alembic import context
 import asyncio
+import os
 
 # Импортируем ваши модели
 from app.database.models import Base
-from config.settings import settings
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
 config = context.config
 
-# Устанавливаем URL базы данных из настроек
-config.set_main_option('sqlalchemy.url', settings.database_url)
+
+# Формируем URL базы данных из переменных окружения
+def get_database_url():
+    DB_HOST = os.getenv('DB_HOST', 'localhost')
+    DB_PORT = os.getenv('DB_PORT', '5432')
+    DB_NAME = os.getenv('DB_NAME', 'hair_analysis_bot')
+    DB_USER = os.getenv('DB_USER', 'postgres')
+    DB_PASSWORD = os.getenv('DB_PASSWORD', 'postgres')
+
+    return f"postgresql+asyncpg://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+
+
+# Устанавливаем URL базы данных из переменных окружения
+database_url = get_database_url()
+config.set_main_option('sqlalchemy.url', database_url)
+
+print(f"Using database URL: {database_url}")
 
 # Interpret the config file for Python logging.
 # This line sets up loggers basically.
@@ -24,6 +39,7 @@ if config.config_file_name is not None:
 # add your model's MetaData object here
 # for 'autogenerate' support
 target_metadata = Base.metadata
+
 
 # other values from the config, defined by the needs of env.py,
 # can be acquired:
@@ -64,7 +80,10 @@ def do_run_migrations(connection):
 
 async def run_async_migrations():
     """В этой функции настраиваем подключение к базе данных для async режима"""
-    connectable = create_async_engine(settings.database_url)
+    connectable = create_async_engine(
+        database_url,
+        poolclass=pool.NullPool,
+    )
 
     async with connectable.connect() as connection:
         await connection.run_sync(do_run_migrations)

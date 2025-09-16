@@ -1,0 +1,72 @@
+version: '3.8'
+
+services:
+  # PostgreSQL база данных
+  postgres:
+    image: postgres:15-alpine
+    container_name: nails_bot_postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: hair_analysis_bot
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init-db.sql:/docker-entrypoint-initdb.d/init-db.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - nails_bot_network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d hair_analysis_bot"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Telegram бот
+  nails_bot:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: nails_bot_app
+    restart: unless-stopped
+    environment:
+      - BOT_TOKEN=${BOT_TOKEN}
+      - DB_HOST=postgres
+      - DB_PORT=5432
+      - DB_NAME=hair_analysis_bot
+      - DB_USER=postgres
+      - DB_PASSWORD=postgres
+      - ADMIN_PASSWORD=${ADMIN_PASSWORD:-admin123}
+      - DEBUG=${DEBUG:-false}
+      - LOG_LEVEL=${LOG_LEVEL:-INFO}
+    volumes:
+      - ./logs:/app/logs
+      - ./app:/app/app  # Для разработки (можно убрать в продакшене)
+    depends_on:
+      postgres:
+        condition: service_healthy
+    networks:
+      - nails_bot_network
+
+  # Опциональный: pgAdmin для управления БД
+  pgadmin:
+    image: dpage/pgadmin4:latest
+    container_name: nails_bot_pgadmin
+    restart: unless-stopped
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@admin.com
+      PGADMIN_DEFAULT_PASSWORD: admin
+    ports:
+      - "8080:80"
+    depends_on:
+      - postgres
+    networks:
+      - nails_bot_network
+
+volumes:
+  postgres_data:
+
+networks:
+  nails_bot_network:
+    driver: bridge
